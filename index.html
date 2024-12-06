@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/style.css" type="text/css" rel="stylesheet" />
+</head>
+<style>
+    .header{
+        display: flex;
+        padding-top: 15px;
+        padding-left: 10px;
+        max-width: 800px; 
+        margin: 0 auto; 
+        padding: 20px;
+    }
+    .header-left{
+        display: flex;
+    }
+    .header-center-top{
+        padding-top: 5px;
+        padding-left: 15px;
+        text-align: left;
+        font-family: 'Arial', sans-serif;
+        font-size: 38px;
+        font-weight: bold;
+        color: #333333;
+    }
+    .header-center-low{
+        font-weight: bold;
+        text-align: center;
+        font-size: 12px;
+        color: #555555;
+    }
+     .header-right{
+        padding-top: 13px;
+        margin-left: auto;
+        font-weight: bold;
+        font-family: 'Arial', sans-serif;
+        text-align:  right;
+        font-size: 12px;
+        color: #444444;
+     }
+     .main{
+        position: relative;
+        max-width: 800px; 
+        margin: 0 auto; 
+        padding: 20px;
+     }
+     .main::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url(./sju-log.png);
+        background-size: 320px 320px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: local;
+        opacity: 0.2; 
+        z-index: -1; 
+    }
+     .main-first{
+        text-align: justify;
+        padding-top: 30px;
+        font-size: 18px;
+     }
+     .main-second{
+        text-align: justify;
+        font-weight: bold;
+        padding-top: 25px;
+        font-size: 18px;
+     }
+     .main-third{
+        text-align: justify;
+        font-weight: normal;
+        padding-top: 25px;
+        font-size: 18px;
+     }
+     .main-fourth{
+        text-align: justify;
+        font-weight: normal;
+        padding-top: 15px;
+        font-size: 18px;
+     }
+     .main-last{
+        text-align: justify;
+        font-weight: normal;
+        padding-top: 15px;
+        font-size: 18px;
+     }
+     .main-last-2{
+        text-align: justify;
+        font-weight: normal;
+        padding-top: 15px;
+        font-size: 18px;
+     }
+     .greet{
+        max-width: 800px; 
+        margin: 0 auto; 
+        padding: 20px;
+     }
+     .greet-1{
+        text-align: justify;
+        font-weight: normal;
+        padding-top: 30px;
+        font-size: 18px;
+     }
+     .greet-2{
+        text-align: justify;
+        font-weight: bold;
+        padding-top: 15px;
+        font-size: 20px;
+     }
+</style>
+<body>
+     <div class="header">
+        <div class="header-left">
+            <img src="./sju-log.png" width="55px" height="55px" align="top">
+            <div class="header-center-top">
+                SEJONG UNIVERSITY</br>
+                <div class="header-center-low">
+                    DEPARTMENT OF INTELLIGENT MECHATRONICS ENGINEERING
+                </div>
+            </div>
+        </div>
+        <div class="header-right">
+            GUNJA 98,</br>
+            GWANGJIN-GU, SEOUL 143-747,</br>
+            REPUBLIC OF KOREA.</br>
+        </div>
+     </div>
+     <div class="main">
+        <div class="main-first">
+            To: whom it may concern
+         </div>
+         <div class="main-second">
+            Subject: Recommendation for Consideration for the Mathematics 2023 Best PhD Thesis Award
+         </div>
+        <div class="main-third">
+            I am writing to enthusiastically recommend Muhammad Zubair Islam for consideration for the Mathematics 2023 Best PhD Thesis Award. Having served as Zubair's PhD supervisor during their research journey, I have had the privilege of closely observing their outstanding contributions to the field of Artificial Intelligence, Machine Learning (ML), and specifically, Reinforcement Learning (RL).
+        </div>
+        <div class="main-fourth">
+            Throughout their doctoral studies, they consistently demonstrated a profound understanding of complex mathematical concepts, behind ML models. Their inquisitive nature and willingness to explore novel approaches to challenging problems make them an extraordinary researcher in the field. One of the most remarkable aspects of Zubair’s work is its ability to combine theoretical rigor with practical applications. Their thesis, titled 
+            <b>
+                “Improving QoS Provisioning Through Deep Reinforcement Learning to Realize Low-Latency Applications in Human-to-Machine Communications”
+            </b>
+            , showcases their ingenuity in developing innovative RL models and algorithms to solve real-world problems. Their work has the potential to bring about significant advancements in low-latency human-in-the-loop applications and has already garnered attention within the academic community. During his graduate studies, he has gained significant experience working on projects related to next-generation emerging applications of Tactile IIoT and computer vision (Healthcare 5.0). His work has resulted in several publications in high-impact journals, specifically MDPI journals.
+        </div>
+        <div class="main-last">
+            In case of any queries, please feel free to contact me. I am confident that Muhammad Zubair Islam will continue to make significant contributions to the field of AI and will be an exceptional recipient of the Mathematics 2023 Best PhD Thesis Award.
+        </div>
+        <div class="main-last-2">
+            Thank you.
+        </div>
+     </div>
+    <div class="greet">
+        <div class="greet-1">
+            Yours Sincerely,
+        </div>
+        <div class="greet-2">
+            Muhammad Zubair Islam<br>
+            Department of AI and Robotics<br>
+            Sejong University, Seoul, South Korea
+        </div>
+    </div>
+</body>
+</html>
